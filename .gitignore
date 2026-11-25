@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+
+# Data (downloaded files and the local database stay out of git)
+data/raw/*
+!data/raw/.gitkeep
+*.duckdb
+*.duckdb.wal
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
